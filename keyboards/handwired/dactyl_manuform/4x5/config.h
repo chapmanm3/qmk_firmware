@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define PRODUCT_ID   0x3435
 #define DEVICE_VER   0x0001
-#define MANUFACTURER tshort
+#define MANUFACTURER fuckYou 
 
 /* key matrix size */
 // Rows are doubled-up
@@ -31,11 +31,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 5
 
 // wiring of each half
-#define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS { F4, F5, F6, F7, B1 }
 // #define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
-#define MATRIX_COL_PINS { C6, D7, E6, B4, B5 }
+#define MATRIX_COL_PINS { E6, D7, C6, D4, D0 }
 
 #define DIODE_DIRECTION COL2ROW
+
+#define SOFT_SERIAL_PIN D2
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
